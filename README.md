@@ -22,20 +22,23 @@ WHAT WE HAVE DONE
         
         Metadata
 	  Samples for sequencing were sent to the Garvan Institute.
-		Manifest Name: 				R_161128_SHADIL_LIB2500_M002
-		Machine:				HWI-D00119
-		Run ID:					220
-		Flowcell ID:				CA73YANXX
-		Flowcell lane:				8
-		Tile number within flowcell lane:	1101
-		Is the read filtered?:			No
-		Are there control bits on?:		No
           
 	  R_161128_SHADIL_LIB2500-M002.csv - information for each sample submitted to the sequencing centre at the time of sequencing
-        
-          samples.txt - maps the sample number to the experimental number
-        
-        
+		
+		Origin:		Other
+		Reference:	Egrandis
+		Application:	Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0
+		Progress:	Library preparation and QC validation complete
+	        
+          Common to each fastq.gz output file
+		Manifest Name:                          R_161128_SHADIL_LIB2500_M002
+                Machine:                                HWI-D00119
+                Run ID:                                 220
+                Flowcell ID:                            CA73YANXX
+                Flowcell lane:                          8
+                Tile number within flowcell lane:       1101
+                Is the read filtered?:                  No
+                Are there control bits on?:             No        
     
 ALL OTHER FILES
   to get to Pearcey personal home drive
