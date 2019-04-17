@@ -21,7 +21,17 @@ WHAT WE HAVE DONE
           The 'headers' of each sequence read also contain metadata eg the sequencing 'lane'
         
         Metadata
-          R_161128_SHADIL_LIB2500-M002.csv - information for each sample submitted to the sequencing centre at the time of sequencing
+	  Samples for sequencing were sent to the Garvan Institute.
+		Manifest Name: 				R_161128_SHADIL_LIB2500_M002
+		Machine:				HWI-D00119
+		Run ID:					220
+		Flowcell ID:				CA73YANXX
+		Flowcell lane:				8
+		Tile number within flowcell lane:	1101
+		Is the read filtered?:			No
+		Are there control bits on?:		No
+          
+	  R_161128_SHADIL_LIB2500-M002.csv - information for each sample submitted to the sequencing centre at the time of sequencing
         
           samples.txt - maps the sample number to the experimental number
         
