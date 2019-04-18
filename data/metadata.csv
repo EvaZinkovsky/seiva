@@ -1,0 +1,47 @@
+Source,http://lims.kccg.garvan.org.au:8080/,,,,,,
+Name,Shannon Dillon,,,,,,
+Email,Shannon.Dillon@csiro.au,,,,,,
+Lab,Dillon_Lab,,,,,,
+Billing Address,-  -,,,,,,
+Shipping Address,-  -,,,,,,
+Manifest Name,R_161128_SHADIL_LIB2500_M002,,,,,,
+Opened,21/12/2016,,,,,,
+Data Delivery Method,Cloud,,,,,,
+Project Funding,External,,,,,,
+Quote ID,FGS00171,,,,,,
+External Project Name,R_161128_SHADIL_LIB2500_M001,,,,,,
+Purchase Order,4000045096,,,,,,
+,,,,,,,
+Sample/Name,Origin,Index,Pool ID,External ID,Reference Genome,Application,Progress
+161220_BPO--000,Other,NXIKV2-D N701-S502 (TAAGGCGA-CTCTCTAT),FD02704185,S1,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--009,Other,NXIKV2-D N702-S503 (CGTACTAG-TATCCTCT),FD02704185,S10,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--010,Other,NXIKV2-D N702-S505 (CGTACTAG-GTAAGGAG),FD02704185,S11,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--011,Other,NXIKV2-D N702-S506 (CGTACTAG-ACTGCATA),FD02704185,S12,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--012,Other,NXIKV2-D N702-S507 (CGTACTAG-AAGGAGTA),FD02704185,S13,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--013,Other,NXIKV2-D N702-S508 (CGTACTAG-CTAAGCCT),FD02704185,S14,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--014,Other,NXIKV2-D N702-S510 (CGTACTAG-CGTCTAAT),FD02704185,S15,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--015,Other,NXIKV2-D N702-S511 (CGTACTAG-TCTCTCCG),FD02704185,S16,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--016,Other,NXIKV2-D N707-S502 (CTCTCTAC-CTCTCTAT),FD02704185,L1,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--017,Other,NXIKV2-D N707-S503 (CTCTCTAC-TATCCTCT),FD02704185,L2,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--018,Other,NXIKV2-D N707-S505 (CTCTCTAC-GTAAGGAG),FD02704185,L3,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--001,Other,NXIKV2-D N701-S503 (TAAGGCGA-TATCCTCT),FD02704185,S2,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--019,Other,NXIKV2-D N707-S506 (CTCTCTAC-ACTGCATA),FD02704185,L4,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--020,Other,NXIKV2-D N707-S507 (CTCTCTAC-AAGGAGTA),FD02704185,L5,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--021,Other,NXIKV2-D N707-S508 (CTCTCTAC-CTAAGCCT),FD02704185,L6,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--022,Other,NXIKV2-D N707-S510 (CTCTCTAC-CGTCTAAT),FD02704185,L7,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--023,Other,NXIKV2-D N707-S511 (CTCTCTAC-TCTCTCCG),FD02704185,L8,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--024,Other,NXIKV2-D N710-S502 (CGAGGCTG-CTCTCTAT),FD02704185,L9,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--025,Other,NXIKV2-D N710-S503 (CGAGGCTG-TATCCTCT),FD02704185,L10,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--026,Other,NXIKV2-D N710-S505 (CGAGGCTG-GTAAGGAG),FD02704185,L11,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--027,Other,NXIKV2-D N710-S506 (CGAGGCTG-ACTGCATA),FD02704185,L12,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--028,Other,NXIKV2-D N710-S507 (CGAGGCTG-AAGGAGTA),FD02704185,L13,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--002,Other,NXIKV2-D N701-S505 (TAAGGCGA-GTAAGGAG),FD02704185,S3,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--029,Other,NXIKV2-D N710-S508 (CGAGGCTG-CTAAGCCT),FD02704185,L14,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--030,Other,NXIKV2-D N710-S510 (CGAGGCTG-CGTCTAAT),FD02704185,L15,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--031,Other,NXIKV2-D N710-S511 (CGAGGCTG-TCTCTCCG),FD02704185,L16,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--003,Other,NXIKV2-D N701-S506 (TAAGGCGA-ACTGCATA),FD02704185,S4,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--004,Other,NXIKV2-D N701-S507 (TAAGGCGA-AAGGAGTA),FD02704185,S5,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--005,Other,NXIKV2-D N701-S508 (TAAGGCGA-CTAAGCCT),FD02704185,S6,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--006,Other,NXIKV2-D N701-S510 (TAAGGCGA-CGTCTAAT),FD02704185,S7,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--007,Other,NXIKV2-D N701-S511 (TAAGGCGA-TCTCTCCG),FD02704185,S8,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
+161220_BPO--008,Other,NXIKV2-D N702-S502 (CGTACTAG-CTCTCTAT),FD02704185,S9,Egrandis,Submitted Library Standard Depth PE Sequencing (HiSeq 2500) v4.0,Library preparation and QC validation complete
