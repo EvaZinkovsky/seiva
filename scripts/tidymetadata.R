@@ -2,10 +2,12 @@
 library(tidyverse)
 
 # read in the metadata.csv file which is the renamed R_161128_SHADIL_LIB2500-M002.csv
-read_csv("/OSM/CBR/AF_DATASCHOOL/input/2019-04-12_Transcritome/R_161128_SHADIL_LIB2500_M002.csv")
+metadata <- read_csv("//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_input/2019-04-12_Transcritome/R_161128_SHADIL_LIB2500_M002.csv")
 
 # remove the first 14 rows
-metadataless <- read_csv("data/metadata.csv", skip = 14)
+metadataless <- filter(metadata, skip = 14)
+
+#metadataless.csv <- read_csv("data/metadata.csv", skip = 14)
 
 # select columns called Sample/Name, Index and External ID
 mtdtlesscolless <- select(metadataless, "Sample/Name" , "Index" , "External ID")
@@ -29,8 +31,9 @@ mtdtlesscollesssplit2 <- mtdtlesscollesssplitnonumbername2 %>%
   separate(Index, into = c("Index1" , "Index2" , "Index3" , "Index4" , "LeadSeq" , "TailSeq"))
 
 # select the columns with variable values and discard the columns which have the same thing in each cell
-mtdtlesscollesssplit2select.csv <- select(mtdtlesscollesssplit2, "Sample" , "Index3" , "Index4" , "LeadSeq" , "TailSeq" , "DayLength","ID")
+mtdtlesscollesssplit2select <- select(mtdtlesscollesssplit2, "Sample" , "Index3" , "Index4" , "LeadSeq" , "TailSeq" , "DayLength","ID")
 
-view(mtdtlesscollesssplit2select.csv)
+view(mtdtlesscollesssplit2select)
+ 
 
-
+write_csv(mtdtlesscollesssplit2select, "//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/tidyR_161128_SHADIL_LIB2500_M002.csv")
