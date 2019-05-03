@@ -1,19 +1,21 @@
----
-title: dataframemerge
+# load tidyverse
+library(tidyverse)
 
-output: html_notebook
----
+## merge the output of tidymetadata.R(tidyR_161128_SHADIL_LIB2500_M002.csv) and pythongfastq.gz(fastqfileinfoframe.csv) 
+## into "//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/mergedframes.csv"
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
-```{r}
-plot(cars)
-```
+# assign the tidyR_161128_SHADIL_LIB2500_M002.csv to a variable tidymetadata
+tidymetadata <- read_csv("//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/tidyR_161128_SHADIL_LIB2500_M002.csv")
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+# assign thefastqfileinfoframe.csv to a variable fastqinfo
+fastqinfo <- read_csv("//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/fastqfileinfoframe.csv")
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+# merge the two frames into one called mergedframes
+mergedframes <- merge(tidymetadata, fastqinfo, by.x = "Sample", by.y = "Sample")
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+# write merged frames to mergedframes.csv
+write_csv(mergedframes, "//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/mergedframes.csv")
+
+read.csv("//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/mergedframes.csv")

@@ -1,16 +1,14 @@
 # load tidyverse
 library(tidyverse)
 
-# read in the metadata.csv file which is the renamed R_161128_SHADIL_LIB2500-M002.csv
-metadata <- read_csv("//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_input/2019-04-12_Transcritome/R_161128_SHADIL_LIB2500_M002.csv")
+# read in the  R_161128_SHADIL_LIB2500-M002.csv
+metadata <- read_csv("//osm-27-cdc.it.csiro.au/OSM_CBR_AF_DATASCHOOL_input/2019-04-12_Transcritome/R_161128_SHADIL_LIB2500_M002.csv", skip = 14)
 
 # remove the first 14 rows
-metadataless <- filter(metadata, skip = 14)
-
-#metadataless.csv <- read_csv("data/metadata.csv", skip = 14)
+#metadataless <- filter(metadata, skip = 14)
 
 # select columns called Sample/Name, Index and External ID
-mtdtlesscolless <- select(metadataless, "Sample/Name" , "Index" , "External ID")
+mtdtlesscolless <- select(metadata, "Sample/Name" , "Index" , "External ID")
 
 # rename the columns to remove "/" from the first column and " " from the third column
 names(mtdtlesscolless) <- c("SampleName" , "Index" , "ExternalID")
@@ -37,3 +35,4 @@ view(mtdtlesscollesssplit2select)
  
 
 write_csv(mtdtlesscollesssplit2select, "//osm-27-cdc.it.csiro.au//OSM_CBR_AF_DATASCHOOL_output/seiva/data/tidyR_161128_SHADIL_LIB2500_M002.csv")
+
