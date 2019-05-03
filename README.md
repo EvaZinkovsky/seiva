@@ -46,14 +46,28 @@ ALL OTHER FILES
   to get to Pearcey personal home drive
       in gitbash type ssh zin005@pearcey.hpc.csiro.au then answer yes to 'are you sure you want to continue connecting?'
         enter network password 
-    
-    Read Me File
-      readme_date_initials_number
-    Scripts
-      scriptname_date_initials_number      
-    Results
-      resultname_date_initials_number
-     
+
+
+WORKFLOW FOR COMPILING TIDY METADATA         
+
+TIDYMETADATA.R
+- Write an R Script to take the  R_161128_SHADIL_LIB2500-M002.csv and tidy the data to keep only the columns 
+necessary to keep with each file. This required deleting 14 rows of header information and then deleting and 
+splitting columns.
+
+PYTHONMETADATA.IPYNB
+- Write a python script (pythonmetada - long script) using glob to iterate through fastq.gz files 
+2019-04-12_Transcritome/*.fastq.gz and grab information from both the file name and the header line of each file. 
+This information is then collected into another csv file - fastqfileinfoframe.csv.
+ 
+PYTHONFASTQGZ.IPYNB 
+- gives the same output as PYTHONMETADATA.IPYNB with condensed scripting into one cell.
+
+DATAFRAMEMERGE.R
+- An R script to merge the two dataframes tidyR_161128_SHADIL_LIB2500_M002.csv AND fastqfileinfoframe.csv into 
+one dataframe mergedframes.csv. 
+
+
 - Open VCN session to run an interactive session that is not going to kick you off in half an hour. 
 
 - Logging into Pearcey
